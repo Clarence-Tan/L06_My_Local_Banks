@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bank">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        android:text="@string/bankSelector" />
+
+    <TextView
+        android:id="@+id/textViewDBS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dbs"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edit_background"/>
+
+    <TextView
+        android:id="@+id/textViewOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ocbc"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edit_background"/>
+
+    <TextView
+        android:id="@+id/textViewUOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uob"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_background"/>
+</LinearLayout>
